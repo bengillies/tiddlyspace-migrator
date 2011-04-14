@@ -1,0 +1,9 @@
+Migrate a named list of spaces from an external TiddlySpace server to the current instance.
+
+Copy the script into the instance directory and call as:
+
+python migrate.py tiddlyspace.com bengillies space1 space2 space3
+
+where tiddlyspace.com is the name of the external server
+bengillies is the user you want to own the spaces
+space1 space2 space3 is the list of spaces
